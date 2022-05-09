@@ -1,0 +1,67 @@
+/* overriding HTML defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-text: rgb(2, 9, 11);
+    --other-text: rgb(7, 126, 136);
+    --bg-one: rgb(117, 75, 111);
+    --bg-two: rgb(167, 186, 184);
+}
+
+body {
+    color: var(--main-text);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* applying styles to header/nav bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: var(--bg-one)
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 3em;
+    color: var(--main-text)
+    margin: 0;
+    text-align: start;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--main-text);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+/* footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: var(--bg-one);
+    width: 100%;
+    padding: 40px 35px;
+}
