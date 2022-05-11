@@ -6,8 +6,8 @@
 }
 
 :root {
-    --main-text: rgb(2, 9, 11);
-    --other-text: rgb(7, 126, 136);
+    --other-text: rgb(2, 9, 11);
+    --main-text: rgb(7, 126, 136);
     --bg-one: rgb(117, 75, 111);
     --bg-two: rgb(167, 186, 184);
 }
@@ -29,7 +29,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 3em;
-    color: var(--main-text)
+    color: var(--main-text);
     margin: 0;
     text-align: start;
 }
@@ -59,9 +59,21 @@ header nav ul li a {
 /* footer styles */
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     background: var(--bg-one);
     width: 100%;
     padding: 40px 35px;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+footer nav ul li {
+    margin: 0 25px;
 }
