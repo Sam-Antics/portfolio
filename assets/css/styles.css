@@ -9,13 +9,15 @@
     --other-text: rgb(2, 9, 11);
     --main-text: rgb(7, 126, 136);
     --bg-one: rgb(117, 75, 111);
-    --bg-two: rgb(167, 186, 184);
+    --bg-two: rgb(211, 215, 218);
+    --text-three: rgb(40, 20, 48);
 }
 
 body {
     color: var(--main-text);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 /* applying styles to header/nav bar */
 header {
@@ -29,14 +31,14 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 3em;
-    color: var(--main-text);
+    color: var(--text-three);
     margin: 0;
     text-align: start;
 }
 
 header a {
     text-decoration: none;
-    color: var(--main-text);
+    color: var(--text-three);
 }
 
 header nav {
@@ -56,17 +58,49 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.5em;
 }
-/* footer styles */
-footer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background: var(--bg-one);
-    width: 100%;
-    padding: 40px 35px;
+
+main {
+    background-color: var(--bg-two);
 }
 
-footer nav ul {
+section {
+    padding: 10px;
+}
+
+/* Jumbotron styles */
+.hero {
+    height: 300px;
+    background-image: url(../images/Purple\ Bubbles.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    color: var(--main-text);
+   
+}
+
+/* profile pic */
+.hero img {
+    position: relative;
+    right: 60px;
+    height: 200px;
+    width: 175px;
+    border: 4px var(--bg-two) solid;
+    border-radius: 25px;
+}
+
+.hero h2 {
+    font-style: italic;
+    font-size: 2em;
+    padding: 10px;
+    border: 4px var(--bg-two) solid;
+    border-radius: 25px;
+    background-color: var(--text-three);
+}
+
+.contact nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -74,6 +108,17 @@ footer nav ul {
     list-style: none;
 }
 
-footer nav ul li {
+.contact nav ul li {
     margin: 0 25px;
 }
+
+/* footer styles */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: var(--bg-one);
+    width: 100%;
+    padding: 40px 35px;
+}
+
