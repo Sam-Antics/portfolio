@@ -6,11 +6,11 @@
 }
 
 :root {
-    --other-text: rgb(2, 9, 11);
     --main-text: rgb(7, 126, 136);
+    --other-text: rgb(2, 9, 11);
     --bg-one: rgb(117, 75, 111);
     --bg-two: rgb(211, 215, 218);
-    --text-three: rgb(40, 20, 48);
+    --color-three: rgb(40, 20, 48);
 }
 
 body {
@@ -31,14 +31,14 @@ header, footer {
 header h1 {
     font-weight: bold;
     font-size: 3em;
-    color: var(--text-three);
+    color: var(--color-three);
     margin: 0;
     text-align: start;
 }
 
 header a {
     text-decoration: none;
-    color: var(--text-three);
+    color: var(--color-three);
 }
 
 header nav {
@@ -109,7 +109,7 @@ padding: 10px;
     padding: 10px;
     border: 4px var(--bg-two) solid;
     border-radius: 25px;
-    background-color: var(--text-three);
+    background-color: var(--color-three);
 }
 
 /* Section Headers */
@@ -130,8 +130,7 @@ padding: 10px;
     align-items: center;
 }
 
-/* About Me section styles */
-.about {
+.sections {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -140,6 +139,7 @@ padding: 10px;
     align-items: center;
 }
 
+/* About Me section styles */
 .bl-border1 {
     border-right: 3px solid var(--bg-one);
     height: 150px;
@@ -158,8 +158,86 @@ padding: 10px;
     width: 100%;
 }
 
-/* Contact section styles */
+/* Work section styles */
+.bl-border2 {
+    border-right: 3px solid var(--bg-one);
+    height: 450px;
+    flex: 2 5%;
+}
 
+.container {
+    flex: 80;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    width: 80%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 10vw);
+    margin-left: 15px;
+}
+
+.gallary-card {
+    position: relative;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px var(--color-three) solid;
+}
+
+figcaption {
+    margin: -15% 15px auto 15px;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--other-text);
+    background-color: var(--bg-two);
+}
+
+.card-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    position:relative
+}
+
+.card-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    }
+  
+.card-3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  }
+  
+.card-4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  }
+  
+.card-5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  }
+
+
+/* Contact section styles */
 .bl-border3 {
     border-right: 3px solid var(--bg-one);
     height: 100px;
@@ -169,7 +247,7 @@ padding: 10px;
 .contact-info {
     flex: 65%;
 }
-.contact nav ul {
+.contact-info ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -177,6 +255,6 @@ padding: 10px;
     list-style: none;
 }
 
-.contact nav ul li {
+.contact-info ul li {
     margin: 0 25px;
 }
