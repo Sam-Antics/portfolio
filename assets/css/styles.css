@@ -19,8 +19,8 @@ body {
 }
 
 
-/* applying styles to header/nav bar */
-header {
+/* applying styles to header/nav bar & footer */
+header, footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -42,14 +42,15 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    position: relative;
+    margin: 45px 0 0 0;
+    align-items: bottom;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
@@ -57,8 +58,14 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.5em;
+    border-bottom: 2px solid;
 }
 
+footer div {
+    align-self: flex-end;
+}
+
+/* Main Content Styles */
 main {
     background-color: var(--bg-two);
 }
@@ -112,13 +119,4 @@ section {
     margin: 0 25px;
 }
 
-/* footer styles */
-footer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background: var(--bg-one);
-    width: 100%;
-    padding: 40px 35px;
-}
 
