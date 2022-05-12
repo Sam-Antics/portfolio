@@ -115,12 +115,12 @@ padding: 10px;
 /* Section Headers */
 .section-head {
     display: flex;
-    justify-content: left;
+    padding-top: 10px;
 }
 .section-title {
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0 0 0 80px;
+    margin: 0 15px 0 80px;
 }
 
 .borderline {
@@ -128,6 +128,7 @@ padding: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    border-left: 3px var(--bg-one) solid;
 }
 
 .sections {
@@ -136,16 +137,10 @@ padding: 10px;
     justify-content: space-between;
     margin: 20px 50px;
     width: 90%;
-    align-items: center;
+    align-items: flex-start;
 }
 
 /* About Me section styles */
-.bl-border1 {
-    border-right: 3px solid var(--bg-one);
-    height: 150px;
-    flex: 2 1%;
-}
-
 .about-text {
     flex: 25;
 }
@@ -159,12 +154,6 @@ padding: 10px;
 }
 
 /* Work section styles */
-.bl-border2 {
-    border-right: 3px solid var(--bg-one);
-    height: 450px;
-    flex: 2 5%;
-}
-
 .container {
     flex: 80;
     display: flex;
@@ -238,23 +227,13 @@ figcaption {
 
 
 /* Contact section styles */
-.bl-border3 {
-    border-right: 3px solid var(--bg-one);
-    height: 100px;
-    flex: 2 5%;
-}
-
-.contact-info {
-    flex: 65%;
-}
 .contact-info ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 
 .contact-info ul li {
-    margin: 0 25px;
+    margin: 0 50px;
 }
