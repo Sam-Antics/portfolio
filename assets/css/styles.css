@@ -148,11 +148,11 @@ padding: 10px;
     width: 150px;
 }
 
-.card-1 {
-    flex: 1 100%;
-}
-
 /* Contact section styles */
+
+.contact-info {
+    margin: 0;
+}
 .contact-info ul {
     display: flex;
     flex-wrap: wrap;
