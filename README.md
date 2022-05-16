@@ -5,6 +5,7 @@ The goal of this project is to provide a deployed portfolio of work samples so t
 
 ## Deployed Website
 https://sam-antics.github.io/portfolio/
+
 ![Deployed website](/assets/images/Screenshot.png)
 
 ## Built With
