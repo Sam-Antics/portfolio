@@ -26,7 +26,6 @@ header {
     flex-wrap: wrap;
     padding: 20px 35px;
     background-color: var(--bg-one);
-    position: sticky;
     top: 0;
     background-image: url(../images/Purple\ Glitter.jpg);
     background-size: cover;
@@ -152,7 +151,7 @@ padding: 10px;
 
 .card-1 img {
     height: 300px;
-    width: 500px;
+    width: 600px;
 }
 
 .card-1 {
