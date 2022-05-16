@@ -183,3 +183,50 @@ footer img {
     height: 75px;
     width: 60px;
 }
+
+/* MEDIA QUERIES */
+
+/* For small desktop screens */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-info img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/* For tablets and smaller */
+@media screen and (max-width: 768px) {
+    .section-head {
+        padding-top: 0px;
+    }
+    
+    .section-title {
+        margin-left: 20px;
+    }
+
+    .contact-info ul li {
+        margin: 0 25px;
+    }
+}
+
+/* For mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
+    header nav ul {
+        font-size: .85em;
+    }
+    .contact-info ul li {
+        margin: 0 15px;
+    }
+}
