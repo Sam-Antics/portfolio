@@ -142,11 +142,24 @@ padding: 10px;
 
 /* Work section styles */
 
-
+.card {
+    justify-content: space-between;
+}
 .card img {
     height: 150px;
     width: 150px;
+} 
+
+.card-1 img {
+    height: 300px;
+    width: 500px;
 }
+
+.card-1 {
+    padding: 0 0 10px 25px;
+    flex: 1 100%;
+}
+
 
 /* Contact section styles */
 
