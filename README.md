@@ -1,10 +1,11 @@
 <h1 align="center">My Portfolio</h1>
-https://sam-antics.github.io/portfolio/  
 
 ## Project Description
 The goal of this project is to provide a deployed portfolio of work samples so that prospective employers have a review them and determine if I'd be a good fit for open positions.
 
-## Links
+## Deployed Website
+https://sam-antics.github.io/portfolio/
+![Deployed website](/assets/images/Screenshot.png)
 
 ## Built With
 * HTML
@@ -18,7 +19,6 @@ The goal of this project is to provide a deployed portfolio of work samples so t
 - [Email](sameguerra@sbcglobal.net)
 
 ## Contributions
-Purple Bubbles- photo by [Mehdi MeSSrro](https://unsplash.com/@messrro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
 Purple Glitter - photo by [Nixx Studio](https://unsplash.com/@nechamalock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 [Twitter Squared](https://icons8.com/icon/MP7jET0S1bw5/twitter-squared) icon by [Icons8](https://icons8.com)  
 [Email](https://icons8.com/icon/eWFdbcsig4Eq/email) icon by [Icons8](https://icons8.com)  
