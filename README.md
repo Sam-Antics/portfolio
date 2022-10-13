@@ -1,12 +1,21 @@
-<h1 align="center">My Portfolio</h1>
+# Portfolio of Coding Projects
+
+## Table of Contents
+1. [Project Description](#project-description)
+2. [Usage](#usage)
+3. [Built With](#built-with)
+4. [Author](#author)
+5. [Contributions](#contributions)
+6. [Development](#development)
 
 ## Project Description
 The goal of this project is to provide a deployed portfolio of work samples so that prospective employers have a review them and determine if I'd be a good fit for open positions.
 
-## Deployed Website
-https://sam-antics.github.io/portfolio/
-
-![Deployed website](/assets/images/screenshot.png)
+## Usage
+This project is deployed at a live URL</br>
+[CLick for Deployed Portfolio](https://sam-antics.github.io/portfolio/)
+### Site Screenshot
+![Deployed website](./assets/images/ss02.png)
 
 ## Built With
 * HTML
@@ -27,4 +36,4 @@ Purple Glitter - photo by [Nixx Studio](https://unsplash.com/@nechamalock?utm_so
 [LinkedIn](https://icons8.com/icon/44019/linkedin) icon by [Icons8](https://icons8.com)
 
 ## Development
-As of right now, this is a work in progress. I will more than likely find new features and ways to make my portfolio more engaging for the user as I develop my skillset over the course of the six-month bootcamp I am currently in. 
+This was my first project portfolio, whic was built in the second week of the 24-week MERN stack coding bootcamp, which I completed in October of 2022. This project was periodically updated to include projects as I completed them.
